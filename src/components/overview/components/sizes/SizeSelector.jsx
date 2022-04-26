@@ -19,9 +19,11 @@ const SizeSelector = () => {
     return <div></div>
   }
 
-  if (inventory[Object.keys(inventory)[5]].size === 'XL') {
-    inventory[Object.keys(inventory)[5]].size = 'XXL';
-  }
+  // TODO: not all styles have S-XXL sizing, threw error & crashed on "One Size" (style 79261)
+
+  // if (inventory[Object.keys(inventory)[5]].size === 'XL') {
+  //   inventory[Object.keys(inventory)[5]].size = 'XXL';
+  // }
 
   return (
     <div className="size-selector">

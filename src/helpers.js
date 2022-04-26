@@ -13,9 +13,9 @@ const options = {
 
 const host = 'https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp';
 
-const products_api = host
-const reviews_api = 'http://localhost:1128'
-const qanda_api = host
+const products_api = 'http://localhost:8080';
+const reviews_api = host;
+const qanda_api = host;
 
 /*------------------------ PRODUCTS ------------------------ */
 /*------------------------ PRODUCTS ------------------------ */
